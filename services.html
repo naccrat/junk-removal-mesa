@@ -1,0 +1,37 @@
+---
+layout: default
+permalink: /services/
+title: Services
+meta_description: Discover a wide range of professional handyman services for your home. From repairs and installations to renovations and maintenance, our skilled team has you covered. We offer reliable solutions and exceptional craftsmanship to meet all your needs. Contact us today for expert assistance and make your home improvement projects a breeze.
+
+main-image: handyman-home-improvement.jpeg
+---
+
+<div class="py-vh-3 w-100 overflow-hidden">
+  <div class="container">
+    <div class="row d-flex ">
+      <div class="col-lg-7">
+        <h2 class="display-6">
+          Handyman Services
+        </h2>
+        {% for cat in site.category-list %}
+        <ul class="list-unstyled">
+          {% for page in site.pages %}
+          {% if page.resource == true %}
+          {% for pc in page.categories %}
+          {% if pc == cat %}
+          <li class="py-2">
+            <a href="{{ page.url }}" class="link-fancy">{{ page.title }}</a>
+          </li>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+          {% endfor %}
+        </ul>
+        {% endfor %}
+      </div>
+      <!-- col-lg-5 FORM-->
+      {% include form.html %}
+    </div>
+  </div>
+</div>

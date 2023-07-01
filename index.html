@@ -1,0 +1,223 @@
+---
+layout: default
+title: Junk Removal Mesa AR
+services: Junk Removal Mesa is the leading provider of reliable and affordable junk removal services in Mesa, AR
+meta_description: Our experienced team of professionals is equipped with the tools and expertise to safely remove all types of junk, from appliances and furniture to yard debris and scrap metal. We also take care to recycle and donate items whenever possible, doing our part for the environment.
+
+main-image: handyman-home-improvement.jpeg
+---
+  <div class="py-vh-3 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex ">
+        <div class="col-lg-7">
+          <h2 class="display-6">Welcome to Affordable Junk Removal Mesa</h2>
+          <p>Our team of professionals makes the process of clearing out your unwanted items easy and stress-free. Whether you need to dispose of old furniture, appliances, yard waste, or construction debris, we've got you covered.</p>
+          <p>At our company, we hold ourselves to a high standard of excellence when it comes to customer service. Our top priority is to ensure that your experience with us is seamless and stress-free. Additionally, we are dedicated to doing our part for the environment by making every effort to recycle or donate items whenever possible. We take pleasure in our commitment to sustainability and make every attempt to make a positive impact on our environment.</p>
+          <p>At Junk Removal Mesa, we offer no-obligation estimates and transparent pricing. You can trust that you're getting a fair deal. Our goal is to simplify your life by helping you reclaim your space. We'll help you get rid of the clutter that's been weighing you down. Here are a few of our services:</p>
+          {% for cat in site.category-list %}  
+          <ul>
+            {% for page in site.pages %}
+              {% if page.resource == true %}
+                {% for pc in page.categories %}
+                  {% if pc == cat %}
+                    <li class="p-1">
+                      <a href="{{ page.url }}" class="link-fancy">{{ page.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+          {% endfor %}
+        </div>
+        <!-- col-lg-5 FORM-->
+        {% include form.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="py-vh-3 bg-cta-custom text-dark w-100 overflow-hidden" id="workwithus">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-10 text-center">
+            <h2 class="display-6 mb-3">Junk Removal Mesa is your go-to solution for all your clutter and junk removal needs.</h2>
+            <p class="lead">If you typed into Google, "Junk removal near me" and landed on this page, you've come to the right place. Let us help you with your junk removal needs and simplify your life.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section -->
+  <div class="py-vh-3 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <h2 class="py-3">Scrap Metal Removal</h2>
+          <p>At Junk Removal Mesa, we understand that scrap metal can be a hassle to deal with, especially if you're not sure what to do with it. That's why we offer reliable and affordable scrap metal removal services to help you get rid of it quickly and easily.</p>
+          <p>Our experienced team of professionals is equipped with the tools and expertise to safely remove all types of scrap metal, including appliances, old vehicles, and construction materials. We also take care to recycle scrap metal whenever possible, doing our part for the environment.</p>
+          <p>With transparent pricing and no-obligation estimates, you can trust that you're getting a fair deal. Let us help you reclaim your space and simplify your life with our top-notch scrap metal removal services. Contact us today to schedule your appointment and experience the Junk Removal Mesa difference!</p>      
+        </div>
+        <div class="col-lg-6">
+          <div class="row gx-5 d-flex">
+            <div class="col-md-11">
+              <img src="img/cabinetry-install.jpeg" class="shadow" width="100%" 
+              alt="A man install some kitchen cabinets."/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section  -->
+  <div class="py-vh-3 bg-gray-100 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <div class="row gx-5 d-flex">
+            <div class="col-md-11">
+              <img src="img/airbnb-handman.jpeg" class="shadow" width="100%" 
+              alt="A couple standing in front of a lake and buildings watching fireworks."/>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="py-3">Mattress Removal</h2>
+          <p>Say goodbye to that old, lumpy mattress with Junk Removal Mesa's mattress removal services! Our team of professionals will safely and efficiently remove your old mattress, so you can sleep soundly on a new one. No need to worry about hauling it to the dump or figuring out how to recycle it. We'll take care of everything for you!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section -->
+  <div class="py-vh-3 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <h2 class="py-3">Curbside Junk Pick Up</h2>
+          <p>At Junk Removal Mesa, we want to make the process of getting rid of your unwanted items as easy as possible. With our curbside junk pick-up service, you place your items on the curb and we'll take care of it.</p>
+          <p>Our team of professionals will arrive at your curb at the scheduled time and collect your items. We load everything safely and efficiently, so you don't have to worry about a thing. Once we've loaded up your items, we'll haul them away and dispose of them responsibly.</p>
+          <p>So go ahead and put your unwanted items on the curb, and let us take care of the rest.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row gx-5 d-flex">
+            <div class="col-md-11">
+              <img src="img/home-remodal-handyman.jpeg" class="shadow" width="100%" 
+              alt="A front room being remodaled with wood trim on the floor."/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section  -->
+  <div class="py-vh-3 bg-gray-100 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-lg-6">
+          <div class="row gx-5 d-flex">
+            <div class="col-md-11">
+              <img src="img/airbnb-handman.jpeg" class="shadow" width="100%" 
+              alt="A couple standing in front of a lake and buildings watching fireworks."/>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="py-3">Appliance Removal</h2>
+          <p>At Junk Removal Mesa, we know that moving big appliances can be tough and even dangerous. That's why we offer safe and reliable appliance removal services. Our team can handle the heavy lifting and safely remove your appliances. From refrigerators, washing machines, and dryers to dishwashers and oven ranges.</p>
+          <p>We understand that moving these large items can cause damage to your home. Moving them can even cause injury if not done properly. That's why we take every precaution to ensure a safe removal process. Our team has the knowledge and tools needed to safely navigate your home and remove appliances without causing damage.</p>
+          <p>Not only will we safely remove your unwanted appliances, but we also care about the environment. We strive to recycle and donate items whenever possible.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section -->
+  <div class="py-vh-2 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-8">
+          <h2 class="py-3">Furniture Removal</h2>
+          <p>Dealing with old furniture can be tough and time-consuming, especially if you don't know how to get rid of it. You might think a couch on the porch is your only option but with our quick service and fair pricing, you can now clean up your area. That's why Junk Removal Mesa offers furniture removal services to help make it easier for you.</p>
+          <p>Our team can safely remove many types of furniture like couches, chairs, tables, desks, dressers, and mattresses. We also try to recycle or donate items to help the environment.</p>
+          <p>Our prices are transparent and we provide estimates without any obligation. Let us help you simplify your life and make more space in your home with our furniture removal services. Contact us today to schedule your appointment and see how Junk Removal Mesa can help you out!</p>
+          
+          <h2 class="py-3">Hot Tub Removal</h2>
+          <p>At Junk Removal Mesa, we know that a hot tub can be a relaxing place to soak away your troubles, but when it's time to get rid of it, the trouble starts. That's where we come in. Our hot tub removal services are the perfect solution for anyone who's had enough of the maintenance, the electricity bills, and the constant worry that someone's going to pee in it.</p>
+          <p>Our team will handle everything from disconnecting the electricity to hauling it away. You don't have to lift a finger (except to wave goodbye to your old hot tub). And we'll do it all with a smile because let's face it—hot tubs can be a real pain in the backside.</p>
+          <p>We're committed to doing our part for the environment. That's why we recycle and donate items whenever possible. And with our transparent pricing and no-obligation estimates, you can rest assured that you're getting a fair deal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="py-vh-3 bg-cta-custom text-dark w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-10 text-center">
+            <h2 class="display-6 mb-3">The #1 Junk Removal Services in Maricopa County, Arizona</h2>
+            <p class="lead">Don't let junk and clutter take over your life any longer. Contact us today to schedule your appointment and experience the best in junk removal services. Let us show you why Junk Removal Mesa is the top choice for all your junk removal needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section -->
+  <div class="py-vh-2 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-8"> 
+          <h2 class="py-3">Trash Removal</h2>
+          <p>Say goodbye to your trash problems with Junk Removal Mesa! Our team of experienced professionals can handle all your trash removal needs, big or small. We'll come to your home and safely and efficiently remove all your unwanted trash. No need to worry about dragging heavy bags to the curb or figuring out where to dispose of hazardous materials. We've got you covered!</p>
+
+          <h2 class="py-3">Yard Debris Removal</h2>
+          <p>Does your yard look like a jungle? Let Junk Removal Mesa tame the wild for you! Our skilled professionals can remove any type of yard debris, from fallen branches to piles of leaves. We'll leave your yard looking clean and beautiful, ready for your next outdoor gathering. Don't let yard work get you down. Call us today for hassle-free yard debris removal!</p>
+
+          <h2 class="py-3">Electronics Disposal</h2>
+          <p>Got old electronics take up space in your home or office? Junk Removal Mesa can dispose of them safely and responsibly! Our team will make sure your electronics are recycled or disposed of properly, so you don't have to worry about contributing to e-waste. Let us help you clear out your space and make room for the latest and greatest technology!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section -->
+  <div class="py-vh-2 w-100 bg-gray-100 overflow-hidden">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-8"> 
+          <h2 class="py-3">Garbage Disposal</h2>
+          <p>Don't let garbage pile up in your home or business. Junk Removal Mesa can take care of it for you! Our team will safely and efficiently dispose of all your unwanted garbage, so you can focus on more important things. Let us help you keep your space clean and tidy with our top-notch garbage disposal services.</p>
+
+          <h2 class="py-3">Estate Clean Out</h2>
+          <p>Dealing with an estate can be overwhelming, but Junk Removal Mesa is here to help! Our team of professionals can handle all your estate clean out needs, from sorting through belongings to disposing of unwanted items. We'll make the process easy and hassle-free, so you can focus on what really matters during this difficult time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="small bg-gray-100 py-vh-3 w-100 overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12 py-5 text-center">
+          <h3 class="fs-2 fw-light">Read our latest articles</h3>
+        </div>
+        {% for post in site.posts limit:3 %}           
+        <div class="col-md-6 col-lg-4 border-end aos-init aos-animate" data-aos="fade-up">
+          <div class="d-flex">
+            <div class="col-md-9 flex-fill">
+              <h3 class="h5 my-2"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <p>{{ post.excerpt }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div> -->
+
+  {% include cta.html %}

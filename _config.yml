@@ -1,0 +1,69 @@
+url: 
+title: Affordable Junk Removal Mesa
+phone: (480) 613-5101
+
+google-analytics: G-9WLKX1GZ3G
+
+category-list: [services]
+
+# Fonts
+font:
+  # Body copy
+  sans-serif-name: 'Open Sans'
+  sans-serif: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" 
+  # Heading copy
+  serif-name: 'Raleway'
+  serif: "https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap"
+
+# Privacy Policy and Terms of Service page
+state: Florida
+
+# Custom Navbar Colors
+navbar-colors:
+  bg: "#ffffff"
+  menu-color: "#000000"
+  menu-hover-color: "19495B"
+  
+# Custom button
+btn-custom-primary:
+  text-color: "#ffffff"
+  bg: "#b34b36"
+  border-color: "#b34b36"
+  hover-text-color: "#ffffff"
+  hover-bg: "#9b3d2a"
+  hover-border-color: "#9b3d2a"
+
+btn-custom-secondary:
+  text-color: "#ffffff"
+  bg: "#b34b36"
+  border-color: "#b34b36"
+  hover-text-color: "#ffffff"
+  hover-bg: "#9b3d2a"
+  hover-border-color: "#9b3d2a"
+
+btn-border-radius: "12px"
+
+# Call to action box bg color
+cta:
+  bg: "#DBF0E7"
+  
+# Form background color
+form: 
+  bg: "#DBF0E7"
+
+
+# Local Business Schema
+schema:
+  # name: Same as title above
+  image: ""
+  # telephone: Same as phone above
+  priceRange: "$"
+  address:
+    city: "Mesa"
+    state: "Arizona"
+    country: "USA"
+    postalCode: "85201"
+  hours:
+    dayOfWeek: "Monday-Saturday"
+  # url: Same as url above
+# End Schema
