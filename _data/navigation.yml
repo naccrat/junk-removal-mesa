@@ -1,11 +1,24 @@
 - title: "Home"
-  link: "/"
+  url: "/"
 
 - title: "Services"
-  link: "/services/"
-
+  url: "/services/"
+  sublinks:
+    - title: "Appliance Removal"
+      url: "/applicance-removal/"
+    - title: "Furniture Removal"
+      url: "/furniture-removal/"
+    - title: "Curbside Junk Pickup"
+      url: "/curbside-junk-pickup/"
+    - title: "Trash Removal"
+      url: "/trash-removal/"
+    - title: "Hot Tub Removal"
+      url: "/hot-tub-removal/"
+    - title: "Scrap Metal Removal"
+      url: "/scrap-metal-removal/"
+ 
 # - title: "Articles"
-#   link: "/blog/"
+#   url: "/blog/"
 
 - title: "Contact Us"
-  link: "/contact/"
+  url: "/contact/"

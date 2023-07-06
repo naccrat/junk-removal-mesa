@@ -1,8 +1,11 @@
 url: https://affordablejunkremovalmesa.com
 title: Affordable Junk Removal Mesa
 phone: (480) 613-5101
+logo: 
+logo-width: 
 
 google-analytics: G-9WLKX1GZ3G
+site-author: 325 Studio
 
 category-list: [services]
 
@@ -21,7 +24,8 @@ state: Florida
 # Custom Navbar Colors
 navbar-colors:
   bg: "#ffffff"
-  menu-color: "#000000"
+  menu-color: "#000000"  # text color
+  active-color: "#000000" # Set to the same as menu-color for now.
   menu-hover-color: "19495B"
   
 # Custom button
