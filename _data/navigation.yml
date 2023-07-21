@@ -17,8 +17,8 @@
     - title: "Scrap Metal Removal"
       url: "/scrap-metal-removal/"
  
-# - title: "Articles"
-#   url: "/blog/"
+- title: "Articles"
+  url: "/blog/"
 
 - title: "Contact Us"
   url: "/contact/"
